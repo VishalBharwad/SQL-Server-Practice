@@ -1,124 +1,151 @@
-# SQL Server Practice
+# 🗄️ SQL Server Practice
 
-<p align="center">
-  <b>A comprehensive collection of SQL Server practice queries for beginners to advanced learners.</b>
-</p>
+A structured SQL Server practice repository covering essential database concepts, SQL queries, and interview-focused examples.
 
----
-
-## 📌 About
-
-This repository contains my daily SQL Server practice as I prepare for **Software Developer** and **ASP.NET Core Developer** roles.
-
-The goal of this repository is to strengthen my SQL skills by practicing database concepts, writing optimized queries, and solving interview-oriented SQL problems.
+This repository is part of my journey to becoming an **ASP.NET Core Developer**.
 
 ---
 
-## 🎯 Topics Covered
+## 📚 Topics Covered
 
-- ✅ Database Creation
-- ✅ Table Creation
-- ✅ SQL Data Types
-- ✅ Constraints
-- ✅ Primary Key
-- ✅ Foreign Key
-- ✅ INSERT
-- ✅ SELECT
-- ✅ WHERE Clause
-- ✅ Operators
-- ✅ ORDER BY
-- ✅ LIMIT / TOP
-- ✅ Aggregate Functions
-- ✅ GROUP BY
-- ✅ HAVING
-- ✅ UPDATE
-- ✅ DELETE
-- ✅ ALTER TABLE
-- ✅ TRUNCATE
-- ✅ JOINS
-- ✅ UNION
-- ✅ Subqueries
-- ✅ Views
-- 🔜 Stored Procedures
-- 🔜 Functions
-- 🔜 Indexes
-- 🔜 Transactions
+### ✅ 01. Create Database & Table
+- Create Database
+- Create Table
+- Insert Records
+- Select Records
+- Drop Database
+- Drop Table
+
+📄 File: `01_Create_Database.sql`
 
 ---
 
-## 📂 Repository Structure
+### ✅ 02. Constraints & Keys
+- Primary Key
+- Foreign Key
+- NOT NULL
+- UNIQUE
+- DEFAULT
+- CHECK Constraint
 
-```text
-SQL-Server-Practice
-│
-├── 01_Create_Database.sql
-├── 02_Create_Table.sql
-├── 03_DataTypes.sql
-├── 04_INSERT.sql
-├── 05_SELECT.sql
-├── 06_WHERE.sql
-├── 07_OPERATORS.sql
-├── 08_ORDER_BY.sql
-├── 09_GROUP_BY.sql
-├── 10_HAVING.sql
-├── 11_UPDATE.sql
-├── 12_DELETE.sql
-├── 13_ALTER_TABLE.sql
-├── 14_TRUNCATE.sql
-├── 15_JOINS.sql
-├── 16_UNION.sql
-├── 17_SUBQUERIES.sql
-├── 18_VIEWS.sql
-└── README.md
-```
+📄 File: `02_Constraints_And_Keys.sql`
 
 ---
 
-## 💻 Technologies Used
+### ✅ 03. SELECT Queries
+- SELECT
+- DISTINCT
+- WHERE Clause
+- Operators
+- BETWEEN
+- IN
+- NOT IN
+- TOP
+- ORDER BY
+- Aggregate Functions
+- GROUP BY
+- HAVING Clause
+
+📄 File: `03_SELECT_WHERE_ORDERBY_GROUPBY.sql`
+
+---
+
+### ✅ 04. UPDATE, DELETE, ALTER TABLE & FOREIGN KEY
+- UPDATE
+- DELETE
+- ALTER TABLE
+- ADD COLUMN
+- ALTER COLUMN
+- Rename Table
+- Rename Column
+- DROP COLUMN
+- Foreign Key
+- ON UPDATE CASCADE
+- ON DELETE CASCADE
+- TRUNCATE TABLE
+
+📄 File: `04_UPDATE_DELETE_ALTER_FOREIGNKEY.sql`
+
+---
+
+### ✅ 05. SQL Joins
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+- FULL OUTER JOIN
+- LEFT EXCLUSIVE JOIN
+- RIGHT EXCLUSIVE JOIN
+- FULL EXCLUSIVE JOIN
+- UNION
+- UNION ALL
+
+📄 File: `05_JOINS.sql`
+
+---
+
+### ✅ 06. Subqueries & Views
+- Single Row Subquery
+- Multi Row Subquery
+- Nested Query
+- Subquery using IN
+- Subquery in FROM Clause
+- Aggregate Function with Subquery
+- Views (Virtual Tables)
+
+📄 File: `06_Subqueries_Views.sql`
+
+---
+
+# 🛠️ Technologies Used
 
 - Microsoft SQL Server
 - SQL Server Management Studio (SSMS)
 
 ---
 
-## 🎯 Learning Goals
+# 🎯 Purpose
 
-- Master SQL fundamentals
-- Improve database design skills
-- Practice interview questions
-- Write clean and optimized SQL queries
-- Build a strong foundation for ASP.NET Core development
+This repository contains my SQL Server practice programs and examples while learning database concepts for **ASP.NET Core Development** and technical interviews.
 
 ---
 
-## 📅 Progress
+# 📂 Repository Structure
 
-| Topic | Status |
-|-------|:------:|
-| Database | ✅ |
-| Tables | ✅ |
-| Data Types | ⏳ |
-| Constraints | ⏳ |
-| CRUD Operations | ⏳ |
-| Joins | ⏳ |
-| Subqueries | ⏳ |
-| Views | ⏳ |
-| Stored Procedures | ⏳ |
-
----
-
-## 🚀 Daily Progress
-
-I regularly update this repository with new SQL concepts and practice queries as part of my software development learning journey.
+```
+SQL-Server-Practice
+│
+├── 01_Create_Database.sql
+├── 02_Constraints_And_Keys.sql
+├── 03_SELECT_WHERE_ORDERBY_GROUPBY.sql
+├── 04_UPDATE_DELETE_ALTER_FOREIGNKEY.sql
+├── 05_JOINS.sql
+├── 06_Subqueries_Views.sql
+└── README.md
+```
 
 ---
 
-## ⭐ Connect With Me
+# 📈 Learning Progress
 
-**GitHub:** https://github.com/VishalBharwad
+- ✅ Database Basics
+- ✅ Constraints & Keys
+- ✅ SELECT Queries
+- ✅ UPDATE & DELETE
+- ✅ ALTER TABLE
+- ✅ Joins
+- ✅ Subqueries
+- ✅ Views
 
-**LinkedIn:** *(Add your LinkedIn profile link here)*
+More SQL topics will be added as I continue learning.
 
 ---
 
-### ⭐ If you find this repository useful, don't forget to Star it!
+## 👨‍💻 Author
+
+**Vishal Bharwad**
+
+- 🎓 B.Tech Agricultural Information Technology
+- 💻 ASP.NET Core Developer
+- 🌱 Currently learning C#, SQL Server, ASP.NET Core MVC, Web API & Entity Framework Core
+
+⭐ If you find this repository helpful, don't forget to **Star** it!
